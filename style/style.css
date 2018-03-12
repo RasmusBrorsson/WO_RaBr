@@ -1,0 +1,179 @@
+/*GLobal*/
+body {
+    
+font-family: 'Playfair Display SC', serif;
+padding:0;
+margin:0;
+background-color: #DEB887;
+}
+
+/*header*/
+header {
+background: #35424a;
+color: #ffffff;
+padding-top: 30px;
+min-height: 70px;
+border-bottom: darkred 3px solid;
+
+}
+
+.container {
+width: 100%;    
+margin: auto;
+overflow: hidden;
+
+}
+
+#branding > h1 {
+    text-align: center;
+    
+}
+    
+    
+/*boxes*/
+
+.boxes {
+    margin-top: 20px;
+    Position: static;
+}
+
+.boxes .box{
+    float: left;
+    text-align: center;
+    width: 30%;
+    padding: 10px;
+}
+.boxes .box > img{
+    width:300px;
+    height: 270px;
+}
+    
+   
+    
+   
+
+/*navbar*/
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #35424a;
+    text-align: center;
+    
+}
+
+nav ul li {
+    float: left;
+    text-align: center;
+}
+
+nav ul li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+   
+}
+
+nav ul li a:hover {
+    background-color: #111;
+}
+
+.current{
+    color: darkred;
+}
+
+
+
+/*stats*/
+.Img
+{
+    position: relative;
+    float: left;
+    
+}
+ 
+.stats{
+    list-style: none;
+    width:auto;
+    display: inline-block;
+    font-size: 19px;
+    
+}
+
+
+   
+.fat{
+ text-decoration-color: black;
+ font-weight: bold;
+ font-size: 22px
+ 
+}
+
+
+
+/* POSTS */
+
+.Img_posts
+{
+    padding-top: 50px;
+    text-align: center;
+    
+}
+
+.Texts_posts
+{
+    text-align: center;
+    background:rgba(255,255,255,0.50);
+    margin-left: 250px;
+    margin-right: 250px;
+    border-bottom: darkred 1px solid;
+    border-right: darkred 1px solid;
+    border-left: darkred 1px solid;
+    border-top: darkred 1px solid;
+}
+
+
+
+
+
+
+/*DANGERZONE*/
+.DANGERBUTTONS
+{
+    display: block;
+    text-align: center;
+    width: 40%;
+    margin: 0 auto;
+    margin-top: 10%;
+    -moz-box-shadow: 0px 0px 0px -12px #535e50;
+	-webkit-box-shadow: 0px 0px 0px -12px #535e50;
+	box-shadow: 0px 0px 0px -12px #535e50;
+	background-color:#3e4d42;
+	-moz-border-radius:25px;
+	-webkit-border-radius:25px;
+	border-radius:25px;
+	border:1px solid #344036;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Times New Roman;
+	font-size:28px;
+	padding:16px 31px;
+	text-decoration:none;
+	text-shadow:-1px 0px 0px #374534; 
+}
+
+.DANGERBUTTONS:hover {
+ background-color:#363d33;
+
+}
+
+.DANGERBUTTONS:active, .DANGERBUTTONS:visited {
+    text-decoration: none;
+    position: relative;
+    top: 1px;
+}
+
